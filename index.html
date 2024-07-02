@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Formulario Cymetrica</title>
+  </head>
+  <body>
+    <form>
+      <div class="container-input">
+        <label>Nombre completo</label>
+        <input type="text" placeholder="Ingrese su nombre completo" />
+      </div>
+      <div class="container-input">
+        <label>Email</label>
+        <input type="text" placeholder="Ej: username@correo.co" />
+      </div>
+      <div class="container-radio-inputs">
+        <label>¿Qué curso estás tomando en Cymetria?</label>
+        <div class="container">
+          <input type="radio" id="sql_server" />
+          <label for="sql_server">SQL- SERVER</label>
+        </div>
+        <div class="container">
+          <input type="radio" id="frontend" checked />
+          <label for="frontend">Frontend</label>
+        </div>
+        <div class="container">
+          <input type="radio" id="fullstack" />
+          <label for="fullstack">FullStack</label>
+        </div>
+      </div>
+      <div class="container-checkbox-inputs">
+        <label>¿Qué curso estás tomando en Cymetria?</label>
+        <div class="container">
+          <input type="checkbox" id="python" />
+          <label for="python">Python</label>
+        </div>
+        <div class="container">
+          <input type="checkbox" id="javascript" checked />
+          <label for="javascript">JavaScript</label>
+        </div>
+        <div class="container">
+          <input type="checkbox" id="net" />
+          <label for="net">.Net</label>
+        </div>
+        <div class="container">
+          <input type="checkbox" id="java" />
+          <label for="java">Java</label>
+        </div>
+        <div class="container">
+          <input type="checkbox" id="node" checked />
+          <label for="node">Nodejs</label>
+        </div>
+        <div class="container">
+          <input type="checkbox" id="php" />
+          <label for="php">PHP</label>
+        </div>
+      </div>
+      <div class="container-buttons">
+        <button class="cancel">Cancelar</button>
+        <button class="enviar">Enviar</button>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+form {
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.container-input {
+    display: block;
+    max-width: 532px;
+    width: 100%;
+    margin: 0 auto 20px auto;
+}
+
+[for="frontend"] {
+    color: #5D5FEF !important;
+}
+
+.container-input label {
+    color: #666666;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.container-input input {
+    width: 100%;
+    border: 1px solid #cccccc;
+    height: 56px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-family: "Noto Sans", sans-serif;
+    padding: 0px 20px;
+}
+
+.container-input input::placeholder {
+    color: #666666;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.container-radio-inputs {
+    margin: 0 auto 20px auto;
+    max-width: 532px;
+    width: 100%;
+    margin: 0 auto 20px auto;
+}
+
+.container-radio-inputs label {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.container-radio-inputs .container {
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-radio-inputs input {
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 50%;
+}
+
+.container-radio-inputs input:checked::before {
+    background-color: #5D5FEF;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-checkbox-inputs {
+    margin: 0 auto 20px auto;
+    max-width: 532px;
+    width: 100%;
+    margin: 0 auto 20px auto;
+}
+
+.container-checkbox-inputs .container {
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.container-checkbox-inputs label {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.container-checkbox-inputs input {
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 50%;
+}
+
+
+.container-buttons {
+    margin: 0 auto;
+    max-width: 532px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.container-buttons .cancel {
+    border:1px solid #5D5FEF;
+    border-radius: 8px;
+    width: 172px;
+    height: 56px;
+    color: #5D5FEF;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #ffffff;
+}
+
+.container-buttons .enviar {
+    border:1px solid #5D5FEF;
+    border-radius: 8px;
+    width: 172px;
+    height: 56px;
+    color: #ffffff;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #5D5FEF;
+}
+
